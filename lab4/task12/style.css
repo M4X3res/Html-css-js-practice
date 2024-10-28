@@ -1,0 +1,19 @@
+@media screen{
+	.flex > div{
+	padding: 1em;
+	background-color: blue;
+	color: white;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 45vh;
+}
+.box{
+	flex-basis: 22%;
+	margin: 5px;
+	flex-shrink: 1;
+}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		.composition 
+	{
+	width: 800px;
+	height: 600px;
+	background-image: url(yet.png);
+	}
+.mySlides
+	{
+	padding-top: 180px;
+	margin-left:115px;
+	}			
+.button
+	{
+	box-shadow: inset 0px 0px 5px;
+	text-decoration: none;
+    background: #FFE4C4;
+    padding: 8px 16px;
+    color: #D2691E;
+    border-radius: 15px;
+    border: none;
+    font-weight: 500px;
+    font-size: 1em;
+    cursor: pointer;
+	position: absolute;
+	top: 320px;
+	left: 300px;
+	}
+.button:active
+	{
+	box-shadow: inset 5px 5px 5px;
+	}
+	</style>
+</head>
+<body>
+	<div class="composition">
+ 		<div class="mySlides">
+			<img class="ufo" src="ufo.png" alt="">
+			<img class="asteroid" src="asteroid.png" alt="">
+			<img class="spaceship" src="spaceship.png" alt="">
+		</div>
+	</div>
+	<input type="button" value="Полетели!" class="button"/>	
+	<script>
+		let space = document.querySelector('.mySlides');
+		document.querySelector('.button').addEventListener('click', function fly() {
+			space.appendChild(space.firstElementChild);
+			setTimeout(fly, 600);
+			}
+		);
+</script>
+</body>
+</html>

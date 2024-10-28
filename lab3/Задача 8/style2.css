@@ -1,0 +1,28 @@
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	}
+ul {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+ul a{
+	color: #0b56ea;
+	text-decoration: none;
+}
+ul li a::after{
+	content: "   >"
+}
+ul li{
+	margin: 0px;
+} 
+ul li span{
+	color: #333;
+}
+ul.main{
+	border: 1px solid blue;
+}
+ul li a:hover{
+	text-decoration: underline;
+}

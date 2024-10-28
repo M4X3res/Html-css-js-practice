@@ -1,0 +1,37 @@
+header{
+border: 3px solid black;
+height: 100px;
+width: 1500px;
+color: grey;
+}
+
+sidebar{
+border: 3px solid black;
+height: 500px;
+width: 200px;
+color: grey;
+float: left;
+z-index: 2;
+}
+
+.content{
+border: 3px solid black;
+color: red;
+height: 500px;
+width: 1500px;
+
+z-index: 1;
+}
+aside:hover{
+color: black;
+}
+
+footer{
+position: absolute;
+border: 3px solid black;
+height: 100px;
+color: grey;
+bottom: 0;
+width: 1500px;
+margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+p {
+	opacity: 0.5;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+fieldset{
+	width: 500px;
+	border-color: blue;
+	border-width: 3px;
+}
+.table td {
+	border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+.table th{
+	border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.table {
+	width: 500px;
+	border-collapse: collapse;
+}
+.table thead{
+	background-color: #f0f1f4;
+}
+.table tfoot {
+	background-color: #121212;
+	color: #fff;
+	text-align: right;
+}
+.table tfoot td{
+	border-width: 0px;
+}

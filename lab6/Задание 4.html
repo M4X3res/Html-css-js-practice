@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		input 
+		{
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+<input type="text" value="" id="input1">
++
+<input type="text" value=""id="input2">
+=
+<span id = "result">?</span>
+<br>
+<br>
+<button onclick="calc()">Нажмите чтобы сложить</button>
+<script>
+function calc()
+{
+	result.innerHTML = Number(input1.value) + Number(input2.value);
+}
+</script>
+</body>
+</html>

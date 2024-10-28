@@ -1,0 +1,27 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+button {
+	float: left;
+	border-radius: 20%;
+	border-width: 0px;
+	margin: 2px;
+}
+#a{
+	margin-top: 33px;
+	width: 5em;
+	height: 2em;
+	font-size: 14px;
+}
+#b{
+	margin-top: 23px;
+	width: 6.5em;
+	height: 3em;
+	font-size: 17px;
+}
+#c{
+	width: 8.5em;
+	height: 4.5em;
+	font-size: 20px;
+}

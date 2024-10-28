@@ -1,0 +1,36 @@
+header ul li{
+  padding: 10px;
+}
+ ul li, ul{
+  display: inline-block;
+}
+ ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+}
+ ul ul{
+  display: none;
+  position: absolute;
+  background-color: #333;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+ul a{
+  color: #fff;
+  text-decoration: none;
+}
+ ul ul a{
+  color: #fff;
+  text-decoration: none;
+}
+ li:hover ul{
+ 	width: 170px;
+  display: block;
+  background-color: #333;
+}
+
+ li:hover li{
+  display: block;
+}

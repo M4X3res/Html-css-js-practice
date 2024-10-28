@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		input {
+			width: 200px;
+		}
+		.line{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+<input class="lin"value="" id="text" onkeyup="change()" placeholder="Введите текст">
+<div class="line" id="text1"></div> 
+<script>
+function change()
+	{
+	text1.innerHTML = text.value;
+	}
+</script>
+</body>
+</html>

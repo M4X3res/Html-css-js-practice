@@ -1,0 +1,19 @@
+#both{
+	
+	resize: none;
+	cursor: pointer;
+
+	
+}
+#none{
+	resize: none;
+	cursor: progress;
+}
+#horizontal{
+	resize: none;
+	cursor: wait;
+}
+#vertical{
+	resize: none;
+	cursor: crosshair;
+}

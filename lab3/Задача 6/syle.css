@@ -1,0 +1,32 @@
+*{
+	background-color:   #f8f8f8;
+}
+.form fieldset{
+	padding: 15px;
+	border-width: 3px;
+	border-color: blue;
+	width: 320px;
+}
+.form input {
+width: 300px;
+margin: 5px;
+border-width: 1px;
+border-color: #ccc;
+background-color: #fff;
+height: 30px;
+}
+button {
+	margin: 5px;
+	color: #f8f8f8 ;
+	background-color: #1cbc11;
+	width: 305px;
+	height: 30px;
+	border-width: 0px;
+}
+button:hover {
+	color: #f8f8f8 ;
+	background-color: #14a20a;
+	width: 305px;
+	height: 30px;
+	border-width: 0px;
+}

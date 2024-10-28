@@ -1,0 +1,27 @@
+article {
+	width: 512px;
+	height: 512px;
+	float: left;
+	margin: 30px;
+
+}
+#a:hover{
+	filter: grayscale(100%);
+
+}
+#b:hover{
+	filter: sepia(50%);
+}
+#c:hover{
+	filter: saturate(30%);
+
+}#d:hover{
+	filter: hue-rotate(90deg);
+
+}#e:hover{
+	filter: invert(100%);
+
+}#f:hover{
+	filter: contrast(50%);
+
+}

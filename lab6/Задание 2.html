@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<h2 class='pr'>Заголовок с классом pr.</h2>
+<p class='pr'>Абзац с классом zzz</p>
+<p class='pr'>Абзац с классом zzz</p>
+<p>Просто абзац не поменяется</p>
+<input type="submit" onclick="change()">
+<script>
+function change() 
+{
+	let text = document.body.querySelectorAll('.pr'); 
+	for (let i = 0; i < text.length; i++) 
+	{
+	text[i].innerHTML = i+1; 
+	}
+}
+</script>
+</body>
+</html>

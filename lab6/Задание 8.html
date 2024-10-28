@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		#button
+	{
+	text-decoration: none;
+    background: blue;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+	}
+
+	</style>
+</head>
+<body>
+<strong>Прогресс-бар</strong>
+<p></p>
+<form>
+	<div class="a">
+		<progress min="0" max="100" value="0" id="progressBar"></progress>
+		<span id="result">?</span>
+	</div>
+	<br>
+	<input type="button" value="Увеличить значение" onclick="percent()" id="button"/>
+</form>
+<script>
+	let i = 0;
+    function percent() 
+	{
+	i = i + 5;
+	if (i<101){
+	document.getElementById("progressBar").value = i;
+	result.innerHTML = i + "%";
+	if (i == 100)
+		{
+		result.innerHTML = i + "%. Вы достигли максимума!";
+		}
+	}
+	}
+</script>
+</body>
+</html>

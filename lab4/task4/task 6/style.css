@@ -1,0 +1,24 @@
+p {
+	 margin: 30px;
+}
+#a {
+	text-shadow: 12px 12px 0px grey;
+}
+#b{
+	text-shadow: 12px 12px 2px grey;
+}
+#c{
+	text-shadow: -4px -4px 1px blue,4px 4px 1px red;
+}
+#d{
+	color: #fddfc4;
+	text-shadow: -1px -1px 1px #fddfc4,0 1px 1px #fddfc4;
+}
+#e{
+	color: #fddfc4;
+	text-shadow: 1px 1px 1px #fddfc4, -1px 1px 1px #fddfc4;
+}
+#f{
+	color: #fddfc4;
+	text-shadow: 1px 1px 0px black;
+	}

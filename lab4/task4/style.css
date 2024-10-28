@@ -1,0 +1,24 @@
+#a {
+	border: 1px solid grey;
+	text-overflow: ellipsis;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#b{
+	border: 1px solid grey;
+	text-overflow: ellipsis;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#a:hover {
+	border: 1px solid grey;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+#b:hover{
+	border: 1px solid grey;
+	text-overflow: ellipsis;
+	white-space: normal;
+}

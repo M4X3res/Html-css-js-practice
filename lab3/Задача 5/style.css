@@ -1,0 +1,36 @@
+ul.nav{
+margin: 2px;
+padding: 2px;
+}
+.nav li { 
+margin: 6px;
+display: inline; 
+}
+ul.nav a {
+display: inline-block;
+padding-left: 21px;
+padding-right: 21px;
+padding-top: 16px;
+padding-bottom: 16px;
+background-color: #ddd;
+text-decoration: none;
+color: #333;
+text-align: center;
+}
+ul.nav a:hover{
+background-color: #ccc;
+
+
+}
+fieldset {
+	border-width: 3px;
+	border-color: blue;
+	width: 340px;
+	padding: 0px;
+
+}
+ul.nav a:active{
+background-color: #d10953;
+color: #fff;
+
+}

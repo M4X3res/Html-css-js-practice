@@ -1,0 +1,120 @@
+article {
+	margin: 10px;
+	border: 2px solid blue;
+	height: 250px;
+	width: 400px;
+
+}
+#a{
+	width: 110px;
+	height: 100px;
+	background: linear-gradient(yellow ,white );
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+
+}
+#b{
+	width: 110px;
+	height: 100px;
+	background: linear-gradient(to right, yellow ,white );
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+
+}
+#c{
+	width: 110px;
+	height: 100px;
+	background: linear-gradient(to left,yellow ,white );
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+#d{
+	width: 180px;
+	height: 100px;
+	background: linear-gradient(to top,red 33%, white 33%, white 66%,red 66%);
+	float: left;
+	margin-left: 10px;
+	border: 1px solid grey;
+}
+#e{
+	width: 180px;
+	height: 100px;
+	background: linear-gradient(to right, red 20%, purple 27%, blue 60%, white 80%, red 100%);
+	float: left;
+	margin-left: 10px;
+	border: 1px solid grey;
+}
+header{
+	margin: 10px;
+	border: 2px solid blue;
+	height: 250px;
+	width: 400px;
+
+}
+#a1 {
+	width: 110px;
+	height: 100px;
+	background: radial-gradient(white , #00ffff);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+
+}
+#b1 {
+	width: 220px;
+	height: 100px;
+	background: radial-gradient(white , #00ffff);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+
+} #c1{
+	width: 170px;
+	height: 100px;
+	background: radial-gradient(circle farthest-corner at 15px 15px, white 1%, #00ffff 20%);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+#d1{
+	width: 170px;
+	height: 100px;
+	background: radial-gradient(circle, black 5%, grey 5%,grey 10%,white 10%, white 15%, #00ffff 15% );
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+footer{
+	margin: 10px;
+	border: 2px solid blue;
+	height: 525px;
+	width: 400px;
+
+}
+#a2{
+	width: 380px;
+	height: 50px;
+	background: repeating-linear-gradient(black, black 3px,white 3px, white 6px);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+#b2{
+	width: 380px;
+	height: 25px;
+	background: repeating-linear-gradient(45deg, white, white 3px,red 3px, red 6px);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+#c2 {
+	width: 380px;
+	height: 380px;
+	background: repeating-radial-gradient(black, black 3px,white 3px, white 6px);
+	float: left;
+	margin: 10px;
+	border: 1px solid grey;
+}
